@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <title>Hangman</title>
+</head>
+
+<body>
+    
+    <div class="container gameArea">
+        
+        <h1>Harvest Hangman</h1>
+        
+        <div class="row">
+            <div class="col-md-8">
+                <img id="gameImg" src="Assets/Images/0.png">        
+            </div>
+            <div class="col-md-4 scoreArea">  
+                <h2 id="guess"></h2>  
+                <p id="score">Score: </p>
+                <p id="guessesRemain">Remaining Guesses: </p>          
+                <p id="wrongLetters">Incorrect Guesses: </p>                
+                <button id="newGame">New Game</button>
+                <p id="message">Click "New Game" to begin!</p> 
+            </div>   
+        </div>
+    </div>
+    
+  
+
+
+    <script src="Assets/JS/script.js"></script>
+    
+</body>
+</html>

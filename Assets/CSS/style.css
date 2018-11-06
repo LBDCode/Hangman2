@@ -1,0 +1,52 @@
+
+body {
+    background: url("../Images/pexels-photo-1048023.jpeg");
+    background-color:#1f2427;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+img {
+    max-width: 380px;
+    padding: 10px 20px 10px 10px;;
+}
+
+.gameArea {
+    max-width: 670px;
+    margin-top: 80px;
+    background-color: rgb(218, 212, 212);
+    opacity: .75;
+    padding: 30px;
+}
+
+p {
+    line-height: 90%;
+    font-size: 12px;
+}
+
+h1 {
+   font-size: 30px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#wrongLetters {
+    line-height: 110%;
+}
+
+#message {
+    font-size: 12px;
+    line-height: 100%;
+}
+
+#newGame {    
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
